@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="Pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de texto JAC</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="Imagenes/Logo.png" alt="Logo alura">
+            <h1 class="titulo">Decodificador de Texto</h1h>
+        </div>
+    </header>
+    <main class="main-container">
+        <section class="input-section">
+            <textarea placeholder="Ingrese su texto" id="inputTextArea"></textarea>
+            <img src="Imagenes/exclamacion.png" alt="exclamacion">
+            <span>Solo letras minusculas sin acento.</span>
+            <div class="buttons">
+                <button id="cript" onclick=btEncriptar()">Encriptar</button>
+                <button id="descript" onclick=btDescriptografar()>Desencriptar</button>
+            </div>
+        </section>
+        <section class="output-section">
+            <div id="imageContainer" class="image-container">
+                <img src="Imagenes/Muñeco.png" alt="Boneco Alura">
+                <p class="sin_mensaje">Ningun mensaje fue encontrado</p>
+                <p class="digite">Ingresa el texto que desees Encriptar o Desencriptar</p>
+            </div>
+            <div class="output-container">
+                <div class="mensaje"></div>
+            </div>
+            <div>
+                <button id="copyBtn" class="copy-button">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p><a class="github" href="https://github.com/Jhonnax92"><img src="Imagenes/github.png" alt="github"></a>Desaroolador por JAC Jhonathan Alexander Capador - 2024</p>
+        <p> <strong>Challenge Alura - Programa OneNextEducation</strong></p>
+    <script src="app.js"></script>
+</body>
+
+</html>
